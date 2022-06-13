@@ -1,0 +1,369 @@
+html, body {
+    font-family: sans-serif, 'Courier New', Courier, monospace;
+    padding-top: 20px;
+    padding-left: 90px;
+    margin: 0;
+    background-color: rgb(55, 69, 89);
+    color: rgb(248, 248, 248);
+    max-width: 90%;
+    align-items: center;
+}
+
+header {
+    padding: 0px;
+    margin: 0px;
+    height: 50px;
+    font-weight: bold;
+    background-color: inherit;
+}
+header::after {
+    content: "";
+    clear: both;
+    background-color: inherit;
+}
+.logo {
+    float: left;
+    height: 20px;
+    padding: 5px;
+    margin: 0;
+}
+nav {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    display: inline-block;
+    flex-direction: row;
+    width: 90%;
+    padding-top: 5px;
+    margin-bottom: 0;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    padding: 5px;
+    margin-right: 15px;
+    color: rgb(255, 112, 3);
+    border: 2px solid rgb(255, 112, 3);
+    border-radius: 19px;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+.navclass:hover {
+    background-color: rgb(255, 112, 3);
+    color: white;
+}
+#brandName {
+    padding: 0;
+    margin: 0;
+    font-size: 28px; 
+}
+
+
+/* Styling For About Me Page */
+
+
+#aboutmain {
+    padding: 0;
+    margin: 0;
+}
+.image {
+    margin: 0;
+    padding: 5px;
+    border: 3px solid rgb(255, 112, 3);
+    border-radius: 30px;
+    height: 300px;
+    display: inline-block;
+}
+.img-section {
+    align-content: center;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.aboutme {
+    margin-bottom: 3px;
+    padding: 5px;
+    height: 130px;
+    width: 1345px;
+    background: rgb(10, 130, 249);
+    border-radius: 15px;
+    color: black;
+    text-align: center;
+}
+.hobbies {
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+    background: rgb(216, 246, 172);
+}
+.priorities {
+    margin: 0;
+    padding: 0;
+    background: rgb(10, 130, 249);
+}
+.skills {
+    margin: 0;
+    padding: 0;
+    background: rgb(216, 246, 172);
+}
+.hobbies, .priorities, .skills {
+    display: inline-block;
+    block-size: 300px 400px;
+    padding: 3px;
+    margin: 0 5px 0 5px;
+    height: 250px;
+    width: 420px;
+    border-radius: 20px;
+    color: black;
+}
+.me {
+    align-content: center;
+}
+footer {
+    background-color: inherit;
+}
+button {
+    background-color: inherit;
+    color: rgb(255, 112, 3);
+    border: 2px solid rgb(255, 112, 3);
+    border-radius: 18px;
+    padding: 10px 25px 10px 25px;
+}
+button:hover {
+    background-color: rgb(255, 112, 3);
+    color: white;
+}
+.contactbtn {
+    text-align: center;
+}
+.markT {
+    text-align: center;
+}
+
+
+/* Styling For Contact Page */
+
+
+#contactmain {
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    height: 400px;
+    margin-left: 450px;
+    margin-bottom: 150px;
+    margin-top: 50px;
+    padding: 10px 38px 10px 38px;
+    border: 3px solid rgb(255, 112, 3);
+    border-radius: 19px;
+    text-align: center;
+}
+#contactme_heading {
+    color: black;
+}
+#contactform {
+    margin: 0;
+    text-align: left;
+    color:rgb(55, 69, 89);
+}
+.contact-form {
+    margin: 0;
+    padding: 0;
+}
+input {
+    padding: 5px;
+    width: 345px;
+    border-radius: 4px;
+}
+#btn_submit_contact {
+    margin-top: 0px;
+    margin-left: 50px;
+    border: 2px solid rgb(255, 112, 3);
+    border-radius: 19px;
+    padding: 5px 80px 5px 80px;
+    cursor: pointer;
+}
+#btn_submit_contact:hover {
+    margin-top: 0px;
+    margin-left: 50px;
+    border: 2px solid rgb(255, 112, 3);
+    border-radius: 19px;
+    padding: 5px 80px 5px 80px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(255, 112, 3);
+}
+.markT {
+    text-align: center;
+}
+
+/* Styling For LogIn Page */
+
+
+#aboutmain {
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    height: 300px;
+    margin-left: 450px;
+    margin-bottom: 150px;
+    margin-top: 50px;
+    padding: 10px 38px 10px 38px;
+    border: 3px solid rgb(255, 112, 3);
+    border-radius: 19px;
+    text-align: center;
+}
+#aboutme_heading {
+    color: black;
+}
+#loginform {
+    margin: 0;
+    text-align: left;
+    color:rgb(55, 69, 89);
+}
+.login-form {
+    margin: 0;
+    padding: 0;
+}
+input {
+    padding: 5px;
+    width: 345px;
+    border-radius: 4px;
+}
+#loginbtn {
+    margin-top: 0px;
+    margin-left: 70px;
+    border: 2px solid rgb(255, 112, 3);
+    border-radius: 19px;
+    padding: 5px 80px 5px 80px;
+    cursor: pointer;
+}
+#loginbtn:hover {
+    margin-top: 0px;
+    margin-left: 70px;
+    border: 2px solid rgb(255, 112, 3);
+    border-radius: 19px;
+    padding: 5px 80px 5px 80px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(255, 112, 3);
+}
+#createbtn {
+    margin-top: 10px;
+    margin-left: 0;
+    background-color: inherit;
+    border: 2px solid rgb(0, 131, 245);
+    color: rgb(0, 131, 245);
+    text-align: center;
+    border-radius: 18px;
+    padding: 5px 20px 5px 20px;
+}
+#createbtn:hover {
+    background-color: rgb(0, 131, 245);
+    color: white;
+    text-align: center;
+    border-radius: 18px;
+    padding: 5px 20px 5px 20px;
+
+}
+.markT {
+    text-align: center;
+}
+
+/* Styling For Sign Up Page */
+
+
+#signupmain {
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    height: 850px;
+    margin-left: 450px;
+    margin-bottom: 150px;
+    margin-top: 50px;
+    padding: 10px 38px 10px 38px;
+    border: 3px solid rgb(255, 112, 3);
+    border-radius: 19px;
+    text-align: center;
+}
+#signup_heading {
+    color: black;
+}
+#signupform {
+    margin: 0;
+    text-align: left;
+    color:rgb(55, 69, 89);
+}
+.signup-form {
+    margin: 0;
+    padding: 0;
+}
+input {
+    padding: 5px;
+    width: 345px;
+    border-radius: 4px;
+}
+select {
+    padding: 5px;
+    width: 345px;
+    border-radius: 4px;
+}
+#signupbtn {
+    margin-top: 0px;
+    margin-left: 70px;
+    border: 2px solid rgb(255, 112, 3);
+    border-radius: 19px;
+    padding: 5px 80px 5px 80px;
+    cursor: pointer;
+}
+#signupbtn:hover {
+    margin-top: 0px;
+    margin-left: 70px;
+    border: 2px solid rgb(255, 112, 3);
+    border-radius: 19px;
+    padding: 5px 80px 5px 80px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(255, 112, 3);
+}
+#logonbtn {
+    margin-top: 10px;
+    margin-left: 0;
+    background-color: inherit;
+    border: 2px solid rgb(0, 131, 245);
+    color: rgb(0, 131, 245);
+    text-align: center;
+    border-radius: 18px;
+    padding: 5px 20px 5px 20px;
+}
+#logonbtn:hover {
+    background-color: rgb(0, 131, 245);
+    color: white;
+    text-align: center;
+    border-radius: 18px;
+    padding: 5px 20px 5px 20px;
+
+}
+.signuptable input {
+    padding: 5px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.signuptable input[type="submit"] {
+    background: white;
+    color: black;
+}
+
+.signuptable input[type="radio"] {width: auto;}
+
+.disagree:checked ~ button[type="submit"] {display: none;
+}
+.markT {
+    text-align: center;
+}
