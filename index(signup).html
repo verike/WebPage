@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Sign Up</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="mylogo.png" rel="icon" type="icon/img/png">
+</head>
+
+<body>
+  <header>
+        <nav>
+            <div class="brandSection">
+                <img src="mylogo.png" alt="logo" class="logo"> 
+                <h1>VERIKE</h1>
+            </div>
+        </nav>
+            <nav>
+                <ul>
+                    <li class="navclass"><a href="index.html">About Me</a></li>
+                    <li class="navclass"><a href="#">Sign Up</a></li>
+                    <li class="navclass"><a href="index(signin).html">Log In</a></li>
+                    <li class="navclass"><a href="index(contact).html">Contact Me</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main id="signupmain">
+        <div id="signup_heading">
+            <h2>Log In</h2>
+        </div>
+            <div class="signup-form">
+                <form action="" id="signupform">
+                    <table class="signuptable">
+                        <tr class="rows">
+                            <label for="firstName"> First Name : </label>
+                            <input class="inputAlign" type="text" id="firstName" value="" placeholder="First Name" required>
+                        </tr>
+
+                        <br> <br>
+
+                        <tr class="rows">
+                            <label for="lastName"> Last Name : </label>
+                            <input class="inputAlign" type="text" id="lastName" value="" placeholder="Last Name" required>
+                        </tr>
+
+                        <br> <br>
+
+                        <tr class="rows">
+                            <label for="phoneNumber"> Phone Number : </label>
+                            <input class="inputAlign" type="number" id="phoneNumber" placeholder="Phone Number" required>
+                        </tr>
+
+                        <br><br>
+
+                        <tr class="rows">
+                            <label for="genderS">Gender : </label>
+                            <select name="gender" id="genderS" required>
+                                <option value="" selected>- Select -</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </tr>
+
+                        <br><br>
+                        
+                        <tr class="rows">
+                            <label for="country">Country : </label>
+                            <input class="inputAlign" type="text" id="country" placeholder="Country" required>
+                        </tr>
+
+                        <br><br>
+                        
+                        <tr class="rows">
+                            <label for="state">State/Province : </label>
+                            <input class="inputAlign" type="text" id="state" placeholder="State of Origin" required>
+                        </tr>
+
+                        <br><br>
+                        <tr class="rows">
+                            <label for="email">Email : </label>
+                            <input class="inputAlign" type="email" id="email" placeholder="Email" required>
+                        </tr>
+
+                        <br><br>
+                        <tr class="rows">
+                            <label for="password">Password : </label>
+                            <input class="inputAlign" type="password" id="password" placeholder="Enter Password" required>
+                        </tr>
+
+                        <br><br>
+                        <tr class="rows">
+                            <label for="confirmpassword">Confirm Password : </label>
+                            <input class="inputAlign" type="password" id="confirmpassword" placeholder="confirm Password" required>
+                        </tr>
+
+                        <br><br>
+
+                        <tr class="rows" style="color: black;">
+                            <td colspan="2"> 
+                                <br /> 
+                                Terms of service : 
+                                <input name="terms" class="agree" type="radio"/> Agree
+                                <input name="terms" class="disagree" type="radio"/> Disagree
+                                <br /> <br />
+                                <button id="signupbtn" type="submit">Sign Up</a></button>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+                <label for="logon" style="color: black;">Registered?</label>
+                <button id="logonbtn"><a href="index(signin).html">Sign In</a></button>
+            </div>
+    </main>
+</body>
+
+</html>
